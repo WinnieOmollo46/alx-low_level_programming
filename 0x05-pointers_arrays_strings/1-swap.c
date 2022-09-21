@@ -7,9 +7,9 @@
  *  Description: swaps two integer values
  */
 
-void swap_int(int *a,int *b)
+void swap_int(int *a, int *b)
 {
-	int x =*a;
+	int x = *a;
 	*a = *b;
 	*b = x;
 }
